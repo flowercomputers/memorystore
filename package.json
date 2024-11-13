@@ -1,7 +1,7 @@
 {
   "name": "memorystore",
   "version": "1.6.7",
-  "description": "express-session full featured MemoryStore layer without leaks!",
+  "description": "fastify session full featured MemoryStore layer without leaks!",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roccomuso/memorystore.git"
+    "url": "git+https://github.com/flowercomputers/memorystore.git"
   },
   "engines": {
     "node": ">=0.10"
@@ -26,14 +26,15 @@
   "author": "Rocco Musolino (roccomuso)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roccomuso/memorystore/issues"
+    "url": "https://github.com/flowercomputers/memorystore/issues"
   },
-  "homepage": "https://github.com/roccomuso/memorystore#readme",
+  "homepage": "https://github.com/flowercomputers/memorystore#readme",
   "dependencies": {
     "debug": "^4.3.0",
     "lru-cache": "^4.0.3"
   },
   "devDependencies": {
+    "@fastify/session": "^11.0.1",
     "mocha": "9.2.0"
   },
   "standard": {
